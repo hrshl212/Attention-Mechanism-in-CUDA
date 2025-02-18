@@ -1,4 +1,4 @@
-# Attention-Mechanism-in-CUDA
+# Transformer Attention-Mechanism-in-CUDA
 
 In this repository, I have implemented the attention mechanism in C++ and CUDA and integrated it with PyTorch. The attention_cuda.cu file contains the CUDA kernels. Shared memory has been utilized to reduce global memory accesses and also to boost coalesced memory access. The CUDA kernel is compiled using setup.py file. Run the following command to compile and install the CUDA extension:
 ```
