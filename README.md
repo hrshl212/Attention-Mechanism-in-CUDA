@@ -5,4 +5,4 @@ In this repository, I have implemented the attention mechanism in C++ and CUDA a
 python setup.py install
 ```
 
-After compiling the CUDA code, the optimized scaled dot-product attention can be used in the Python code as has been done here in attention.py. The custom implementation has been found to be 2x faster than the PyTorch's inbuilt scaled_dot_product_attention implementation. For the dimensions in the code, the PyTorch implementation took a time of 0.056s whereas the custom implementation took a time of 0.027s.
+After compiling the CUDA code, the optimized scaled dot-product attention can be used in the Python code as has been done here in attention.py. The custom implementation has been found to be 2x faster than the PyTorch's inbuilt scaled_dot_product_attention implementation. For the dimensions in the code, the PyTorch implementation took a time of 0.057s whereas the custom implementation took a time of 0.006s (9.5 times faster).
